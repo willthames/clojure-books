@@ -7,7 +7,7 @@
 
 ;; returns all tags named <tag>
 (defn elt-get-tags-named [elt tag]
-  (filter (fn [x] (= (get elt :tag) tag))))
+  (filter (fn [x] (= x tag)) (get elt :tag)))
 
 ;; returns true if an element has a tag named <tag>
 ;; with content (e.g. <tag>content</tag>
