@@ -1,11 +1,13 @@
 # books
 
 A proof of concept of XML parsing in Clojure.
-Parses books.xml and prints the titles of all books by Eva Corets
+Parses `resources/books.xml` and prints the titles of all books by Eva Corets
 
 ## Usage
 
 ```
+git clone http://github.com/willthames/clojure-books
+cd clojure-books
 lein deps
 lein compile
 lein run
